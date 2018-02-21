@@ -1,11 +1,31 @@
 {
-  “SECTION”: [
- 	 { “Number”:”01”, “Year”: 2018, “Qtr”:”Winter”, “Course_number”:”57575”, “Course_name”:”CS 575”}, 
- 	 { “Number”:”01”, “Year”: 2018, “Qtr”:”Winter”, “Course_number”:”66466”, “Course_name”:”CS 664”}
-  ]
-  “STUDENT”: [
-	{ “Ssn”:”123”, “Name”:”Random Name”, “Class”: “CS 575”, “Grade”:”A”},
-	{ “Ssn”:”456”, “Name”:”Another Person”, “Class”: “CS 575”, “Grade”:”B”},
-	{ “Ssn”:”789”, “Name”:”Some Student”, “Class”: “CS 575”, “Grade”:”A+”}
-  ]
+	"SECTION": [{
+		"Number": "01",
+		"Year": "2018",
+		"Qtr": "Winter",
+		"Course_number": "57575",
+		"Course_name": "CS 575"
+	}, {
+		"Number": "01",
+		"Year": "2018",
+		"Qtr": "Winter",
+		"Course_number": "66466",
+		"Course_name": "CS 664"
+	}],
+	"STUDENT": [{
+		"Ssn": "123",
+		"Name": "Random Name",
+		"Class": "CS 575",
+		"Grade": "A"
+	}, {
+		"Ssn": "456",
+		"Name": "Another Person",
+		"Class": "CS 575",
+		"Grade": "B"
+	}, {
+		"Ssn": "789",
+		"Name": "Some Student",
+		"Class": "CS 575",
+		"Grade": "A+"
+	}]
 }
