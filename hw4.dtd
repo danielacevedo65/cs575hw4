@@ -1,0 +1,23 @@
+
+<!ELEMENT Healthcare (Hospitals, Patients)>
+  <!ELEMENT Hospitals (Hospital+)>
+  <!ELEMENT Hospital (Doctors)>
+    <!ATTLIST Hospital id CDATA #REQUIRED>
+    <!ATTLIST Hospital name CDATA #REQUIRED>
+    <!ATTLIST Hospital location CDATA #REQUIRED>
+  <!ELEMENT Doctors (Doctor+)>
+    <!ELEMENT Doctor (specialty)>
+        <!ATTLIST Doctor id CDATA #REQUIRED>
+        <!ATTLIST Doctor name CDATA #REQUIRED>
+    <!ELEMENT specialty (#PCDATA)>
+
+  <!ELEMENT Patients (Patient+)>
+    <!ELEMENT Patient (HospitalsAttending)>
+        <!ATTLIST Patient id CDATA #REQUIRED>
+        <!ATTLIST Patient dateOfBirth CDATA #REQUIRED>
+    <!ELEMENT HospitalsAttending (HospitalAttending)>
+    <!ELEMENT HospitalAttending (Illnesses)>
+     	<!ATTLIST HospitalAttending id CDATA #REQUIRED>
+        <!ATTLIST HospitalAttending dateJoined CDATA #REQUIRED>
+         <!ELEMENT Illnesses (Illness+)>
+          <!ELEMENT Illness (#PCDATA)>

@@ -1,0 +1,38 @@
+<Healthcare>
+  <Hospitals>
+    <Hospital id="1" name="CC" location="Richmond">
+      <Doctors>
+        <Doctor id="1" name="Shaw">
+          <specialty>Primary Care</specialty>
+        </Doctor>
+      </Doctors>
+    </Hospital>
+    <Hospital id="2" name="East B" location="Alameda">
+      <Doctors>
+        <Doctor id="1" name="Myka">
+          <specialty>Neurologist</specialty>
+        </Doctor>
+      </Doctors>
+    </Hospital>
+  </Hospitals>
+  <Patients>
+    <Patient id="1" dateOfBirth="04/29/1870">
+      <HospitalsAttending>
+        <HospitalAttending id="1" dateJoined="10/11/2012">
+          <Illnesses>
+            <Illness>Diabetes</Illness>
+          </Illnesses>
+        </HospitalAttending>
+      </HospitalsAttending>
+    </Patient>
+    <Patient id="2" dateOfBirth="06/29/1985">
+      <HospitalsAttending>
+        <HospitalAttending id="2" dateJoined="10/11/2012">
+          <Illnesses>
+            <Illness>Parkinsons</Illness>
+          </Illnesses>
+        </HospitalAttending>
+      </HospitalsAttending>
+    </Patient>
+  </Patients>
+</Healthcare>
